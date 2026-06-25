@@ -268,9 +268,9 @@ Covers: Vision, Competitive Context (Tractable/CCC/Mitchell), User Stories (6 pe
 
 ## Demo Video
 
-📹 **[Watch the 3-minute Loom walkthrough →](LOOM_LINK_HERE)**
+📹 **[Watch the 3-minute Loom walkthrough →](https://www.loom.com/share/d72cee3dc5734ae7ab4efaee754c2b52)**
 
-*Replace LOOM_LINK_HERE with your recorded demo link before submitting.*
+*Replace https://www.loom.com/share/d72cee3dc5734ae7ab4efaee754c2b52 with your recorded demo link before submitting.*
 
 ---
 
