@@ -234,6 +234,17 @@ The assignment is intentionally vague. Here's how I scoped it:
 
 ---
 
+## Ethical Considerations
+
+- **No autonomous decisions on high-value claims.** Claims above QAR 10,900 or below 85% confidence always require human review. Government clients can enforce stricter thresholds.
+- **Bias monitoring.** Model accuracy is stratified by vehicle class, region, and damage type. Range Rover at 85% vs Land Cruiser at 96% is a visible gap that drives targeted training data collection.
+- **Transparency by default.** Agents see why the AI scored what it scored (4-factor confidence breakdown), not just a number. This builds calibrated trust, not blind trust.
+- **Human override always available.** Every AI estimate is adjustable. Every override is logged and feeds back into training.
+- **Data sovereignty.** Gulf government deployment requires in-country data residency. No cross-border transfer without QCB/SAMA authorization.
+- **Audit trail for accountability.** Every decision, human or AI, is timestamped and immutable. QCB/SAMA auditors can reconstruct the full decision chain for any claim.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -255,9 +266,17 @@ Covers: Vision, Competitive Context (Tractable/CCC/Mitchell), User Stories (6 pe
 
 ---
 
+## Demo Video
+
+📹 **[Watch the 3-minute Loom walkthrough →](LOOM_LINK_HERE)**
+
+*Replace LOOM_LINK_HERE with your recorded demo link before submitting.*
+
+---
+
 ## Built With
 
-This prototype was built using **Claude (Anthropic)** as the AI coding tool and **Claude Vision** as the real-time damage analysis engine, demonstrating how AI tools accelerate product development from concept to deployed product.
+This prototype was built using **Claude (Anthropic)** as the AI coding assistant and **Claude Vision (Sonnet 4.6)** as the real-time damage analysis engine, deployed on **Vercel** with serverless functions proxying to the Anthropic API. The frontend is **React 18** with **Vite** for fast builds and **Tailwind CSS** for styling, with **Lucide React** for icons and a custom Arabic/English i18n layer with full RTL support. The entire system, from concept to deployed product with real AI, was built to demonstrate how AI tools accelerate product development.
 
 ---
 
